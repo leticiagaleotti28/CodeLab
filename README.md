@@ -15,6 +15,9 @@ Este blog de mensagens, desenvolvido com HTML, CSS e JavaScript, permite que os 
 <li><b>Layout responsivo:</b> O blog se adapta perfeitamente a diferentes dispositivos, desde desktops até smartphones, garantindo uma ótima experiência de visualização em qualquer tela.</li>
 </ul>
 
+<h3>Acesso ao Blog:</h3>
+CodeLab - (https://codelab-cod.netlify.app/)
+
 <h3>Tecnologias Utilizadas:</h3>
 
 <ul>
