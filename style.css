@@ -1,0 +1,161 @@
+/* Estilo geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    color: #fff;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    font-weight: 500;
+    size: 40px;
+    line-height: 51.04px;
+    align-items: center;
+}
+
+span{
+    color: #E07B67;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #17171A;
+    padding: 64px 0px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+header input[type="text"] {
+    color: #fff;
+    background-color: #202024;
+    width: 100%;
+    padding: 16px 24px;
+    border: 2px #252529;
+    border-radius: 8px;
+}
+
+main {
+    background-color: #121214;
+}
+
+/* Post */
+.post {
+    margin-bottom: 30px;
+    border: 2px solid #252529;
+    border-radius: 8px;
+    padding: 40px; /* Adicionado padding para melhor visualização da borda */
+    gap: 20px;
+    display: flexbox; /* Para alinhar os itens horizontalmente */
+    gap: 20px; /* Espaçamento entre os elementos */
+    align-items: center;
+}
+
+.post:first-child {
+    border-color: #E07B67; /* Borda diferente para a primeira mensagem */
+}
+
+.post-header {
+    margin-bottom: 15px;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.post-header h2 {
+    margin: 0;
+}
+
+.post-header time {
+    font-size: 12px;
+    color: #E07B67;
+    
+}
+
+.post-content {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Seções */
+section {
+    margin-bottom: 30px;
+    border: 2px solid #E07B67;
+}
+
+section h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+#icon {
+    fill: #17171A;
+    stroke: #E07B67;
+    stroke-width: 7;
+    transition: fill 0.3s;
+    cursor: pointer;
+    margin-left: 600px;
+  }
+  
+  #icon.filled,
+  #icon:hover {
+    fill: #E07B67;
+  }
+
+  @media (max-width: 768px) {
+    .container {
+        padding: 10px; /* Reduzido o padding para telas menores */
+        font-size: 18px; /* Reduzido o tamanho da fonte */
+    }
+
+    header {
+        padding: 24px 0; /* Ajustado o padding do cabeçalho */
+    }
+
+    header h1 {
+        font-size: 28px; /* Reduzido o tamanho da fonte do título */
+        margin-bottom: 10px; /* Reduzido a margem inferior do título */
+    }
+
+    header input[type="text"] {
+        padding: 10px 12px; /* Reduzido o padding do input */
+    }
+
+    .post {
+        padding: 16px; /* Reduzido o padding do post */
+    }
+
+    .post-header h2 {
+        font-size: 18px; /* Reduzido o tamanho da fonte do título do post */
+    }
+
+    .post-header time {
+        font-size: 10px; /* Reduzido o tamanho da fonte da data */
+    }
+
+    .post-content {
+        font-size: 14px; /* Reduzido o tamanho da fonte do conteúdo */
+    }
+
+    section h2 {
+        font-size: 20px; /* Reduzido o tamanho da fonte do título da seção */
+    }
+
+    #icon {
+        margin-left: 300px; /* Ajustado o margin-left para 0 em telas menores */
+        margin-top: 10px; /* Adicionado um margin-top para espaçamento */
+    }
+}
